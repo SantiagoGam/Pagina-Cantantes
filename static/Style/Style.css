@@ -1,0 +1,424 @@
+/* ///////////////////////////// ANIMACIONES //////////////////////////////////// */
+
+@keyframes AnimacionSubida {
+    0% {
+      transform: translateY(0);
+      
+    }
+  
+    50% {
+      transform: translateY(-20px);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+@keyframes ColorGris {
+    0% {
+        filter: grayscale(0%);
+    }
+      100% {
+        filter: grayscale(100%);
+      }
+}
+
+@keyframes RotacionVinilo {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }   
+}
+
+/* ///////////////////////////// FIN ANIMACIONES //////////////////////////////////// */
+
+
+/* ///////////////////////////// ELEMENTOS PRE-DETERMINADOS //////////////////////////////////// */
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: inherit;
+    text-decoration: none; 
+}
+
+.cartas{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+}
+.cardEminem:hover{
+    transform: scale(1.10) rotate(-1deg);
+    animation: AnimacionSubida 5s infinite;
+}
+.cardOmar:hover{
+    transform: scale(1.10) rotate(-1deg);
+    animation: AnimacionSubida 5s infinite;
+}
+.cardHector:hover{
+    transform: scale(1.10) rotate(-1deg);
+    animation: AnimacionSubida 5s infinite;
+}
+
+/* /////////////////////////////// PAGINA HECTOR LAVOE ///////////////////////////////////////////*/
+
+.HectorLavoe{
+    background-color: #8D5B4C;
+    overflow: hidden;
+}
+
+.TituloHector{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    color: #C4BBAF;
+}
+.ParrafoHector{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    color: #A5978B;
+}
+
+.ElementosHector{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ElementosHector2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.CardHector{
+    background-color: #5C4742;
+    color: #A5978B;
+    border-radius: 3%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+/* ////////////////// PARTE 1 ////////////////////////*/
+
+.img1Hector{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 8%;
+    border-radius: 50%;
+}
+.img1Hector:hover{
+    animation: ColorGris 2s infinite;
+}
+.CardinfoHector1{
+    display: flex;
+    position:absolute;
+    right: 15%;
+    top: 80%;
+    text-align: center;
+}
+
+/* ////////////////// PARTE 2 ////////////////////////*/
+
+.img2Hector{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 55%;
+}
+.img2Hector:hover{
+    transform: scale(1.10) rotate(-1deg);
+    animation: AnimacionSubida 5s infinite;
+}
+.CardinfoHector2{
+    display: flex;
+    position: absolute;
+    top: 155%;
+    left: 15%;
+    text-align: center;
+}
+
+/* ////////////////// PARTE 3 ////////////////////////*/
+
+.img3Hector{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+.CardinfoHector3{
+    display: flex;
+    position: absolute;
+    top: 220%;
+    left: 55%;
+}
+
+.Sombrero{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+a{
+    font-size: x-large;
+}
+.botonHector{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* /////////////////////////////// FIN PAGINA HECTOR LAVOE ///////////////////////////////////////////*/
+
+
+
+
+/* ///////////////////////////////  PAGINA EMINEM ///////////////////////////////////////////*/
+.TituloEminem{
+    background: linear-gradient(90deg, #F40000,#090809);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ParrafoEminem{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+.Vinilos{
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(white 90% , black 100%);
+    height: 450px;
+}
+
+.ViniloGodzilla{
+    position: absolute;
+    top: 49.5%;
+    left: 4.7%;
+    border: none;
+}
+
+.ViniloGodzilla:hover{
+    animation: RotacionVinilo 15s infinite;
+}
+
+.BotonGodzilla{
+    all: unset;
+}
+
+.ViniloHoudini{
+    position: absolute;
+    top: 52.5%;
+    left: 37.5%; 
+}
+.ViniloHoudini:hover{
+    animation: RotacionVinilo 15s infinite;
+}
+
+.BotonHoudini{
+    all: unset;
+}
+
+.ViniloLose{
+    position: absolute;
+    top: 51%;
+    right: 5.7%; 
+}
+
+.ViniloLose:hover{
+    animation: RotacionVinilo 15s infinite;
+}
+
+.BotonLose{
+    all: unset;
+}
+
+.WhoEminem {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 650px;
+    margin-bottom: 3%;
+    background: linear-gradient(black 90% , white 100%);
+}
+
+.h1Who{
+    color: aliceblue;
+    position: absolute;
+    top: 120%;
+}
+
+.EminemSentao img {
+    position: absolute;
+    top: 130%;
+    left: 10%;
+    mask-image: linear-gradient(
+        black 80%,
+        transparent
+    );
+    
+}
+
+.FraseEminem {
+    color: rgb(90, 99, 99);
+    text-align: center;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+}
+
+.TextoBiografiaEminem{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.BiografiaEminem{
+    text-align: center;
+    height: 1400px;
+}
+
+.Imagen1BioEminem{
+    position: absolute;
+    top: 270%;
+    left: 10%;
+}
+
+.Enunciado1BioEminem{
+    position: absolute;
+    top: 260%;
+    right: 10%;
+}
+
+.Imagen2BioEminem{
+    position: absolute;
+    top: 340%;
+    right: 10%;
+}
+
+.Enunciado2BioEminem{
+    position: absolute;
+    top: 360%;
+    left: 10%;
+}
+
+.Imagen3BioEminem{
+    position: absolute;
+    top: 420%;
+    left: 10%;
+}
+
+.Enunciado3BioEminem{
+    position: absolute;
+    top: 430%;
+    right: 10%;
+
+}
+
+.MejoresMomentosEminem {
+    display: flex;
+    justify-content: space-evenly; 
+    padding: 2%;
+    height: 700px;
+}
+
+.TextoMejoresMomentos{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.CardEminem {
+    background-color: white; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.ImagenMicrofonoEminem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BotonEmanem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+/* /////////////////////////////// FIN PAGINA EMINEM ///////////////////////////////////////////*/
+
+
+
+
+/* ///////////////////////////////  PAGINA DON OMAR ///////////////////////////////////////////*/
+
+.TituloDonOmar{
+    background: linear-gradient(10deg, #f3807e,#3b1921);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: 100px;
+}
+
+.ContenidoEncabezadoDon{
+    height: 400px;
+}
+
+.ImagenPrincipalDon{
+    position: absolute;
+    top: 14%;
+    left: 2%;
+    mask-image: linear-gradient(
+        black 80%,
+        transparent
+    );
+}
+
+.ViniloMarco{
+    display: flex;
+    position: absolute;
+    top: 28%;
+    right: 17%;
+}
+
+.ViniloDileDonOmar{
+    position: absolute;
+    top: 40%;
+    right: 17%;
+}
+
+.ViniloDileDonOmar:hover{
+    animation: RotacionVinilo 15s infinite;
+}
+
+
+
+.BotonDile{
+    all: unset;
+}
+
+
+.BotonDonOMar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+/* /////////////////////////////// FIN PAGINA DON OMAR ///////////////////////////////////////////*/

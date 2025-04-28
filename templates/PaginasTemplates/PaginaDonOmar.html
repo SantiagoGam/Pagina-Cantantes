@@ -1,0 +1,34 @@
+<div class="TituloDonOmar">
+    <h1>¡¿Pobre diabla? ¿Ella y yo? ¿Es Acaso... DON OMAR?!</h1>
+</div>
+
+<div class="ContenidoEncabezadoDon">
+    <div class="ImagenPrincipalDon">
+        <img src="{{url_for('static',filename='Imagenes/DonOmar/DonOmarBlancoyNegro.png')}}" alt="">
+    </div>
+    <div class="ViniloMarco">
+        <img src="{{url_for('static',filename='Imagenes/DonOmar/MarcoVinilo2.png')}}" alt="" width="300px"
+        height="300px">
+    </div>
+
+
+    <h3>Dile...</h3>
+    <button class="BotonDileDonOmar" onmouseover="ReproducirAudioDile()">
+        <div class="ViniloDileDonOmar">
+            <img src="{{url_for('static',filename='Imagenes/DonOmar/ViniloDonOmarDile.png')}}" alt="" width="300px" height="160px">
+        </div>
+    </button>
+    <audio id="CancionDileDonOmar"
+        src="{{url_for('static',filename='Audio/DonOmar/DonOmarDileVideo.mp3')}}"
+    ></audio>
+
+    
+    
+</div>
+
+
+
+
+<div class="BotonDonOMar">
+    <button><a href="{{url_for('index')}}">Vuelva de nuevo</a></button>
+</div>

@@ -1,0 +1,143 @@
+<div class="TituloEminem">
+    <h1>¡Ha entrado en la sala de Eminem, disfrutelo!</h1>
+</div>
+
+<div class="ParrafoEminem">
+    <h2>Aquí puede escuchar sus más grandes exitos</h2>
+    <h4>○ Pase el Mouse para reproducir la cancion</h4>
+    <h4>○ Vuelva a pasar el Mouse para pausar la cancion</h4>
+</div>
+
+
+<!-- VINILOS DE EMINEM -->
+<div class="Vinilos">
+    <div class="Vinilo">
+        <img src="{{url_for('static',filename='Imagenes/Eminem/Vinilo.jpg')}}" alt="" width="300px" height="350px">
+        <button class="BotonGodzilla" onmouseover="ReproducirAudioGodzilla()">
+            <div class="ViniloGodzilla">
+                <img src="{{url_for('static',filename='Imagenes/Eminem/ViniloGodzilla.png')}}" alt="" width="360px"
+                    height="200px">
+            </div>
+        </button>
+        <audio id="EminemGodzillaCancion"
+            src="{{url_for('static',filename='Audio/Eminem/CancionGodzilla.mp3')}}"></audio>
+    </div>
+
+    <div class="Vinilo2">
+        <img src="{{url_for('static',filename='Imagenes/Eminem/Vinilo.jpg')}}" alt="" width="300px" height="350px">
+        <button class="BotonHoudini" onmouseover="ReproducirAudioHoudini()">
+            <div class="ViniloHoudini">
+                <img src="{{url_for('static',filename='Imagenes/Eminem/ViniloHoudini.png')}}" alt="" width="315px"
+                    height="175px">
+            </div>
+        </button>
+        <audio id="EminemHoudiniCancion" src="{{url_for('static',filename='Audio/Eminem/CancionHoudini.mp3')}}"></audio>
+    </div>
+
+    <div class="Vinilo3">
+        <img src="{{url_for('static',filename='Imagenes/Eminem/Vinilo.jpg')}}" alt="" width="300px" height="350px">
+        <button class="BotonLose" onmouseover="ReproducirAudioLose()">
+            <div class="ViniloLose">
+                <img src="{{url_for('static',filename='Imagenes/Eminem/ViniloLose.png')}}" alt="" width="335px"
+                    height="195px">
+            </div>
+        </button>
+        <audio id="EminemLoseCancion" src="{{url_for('static',filename='Audio/Eminem/CancionLose.mp3')}}"></audio>
+    </div>
+</div>
+
+
+<div class="WhoEminem">
+    <div class="h1Who">
+        <h1>¿Quien es Eminem?</h1>
+    </div>
+    <div class="EminemSentao">
+        <img src="{{url_for('static',filename='Imagenes/Eminem/EminemSentado.png')}}" alt="">
+    </div>
+    <div class="FraseEminem" style="width: 25rem;">
+        <i>
+            <h3>"No tienes que ser un genio para ser grande, solo tienes que tener una pasión inquebrantable y la
+                voluntad de luchar por tus sueños."</h3>
+        </i>
+    </div>
+</div>
+
+<div class="TextoBiografiaEminem">
+    <h1>Biografía de eminem</h1>
+</div>
+
+<div class="BiografiaEminem">
+    
+    <!-- PARTE 1 BIOGRAFÍA DE EMINEM -->
+    <div class="Imagen1BioEminem">
+        <img src="{{url_for('static',filename='Imagenes/Eminem/IniciosEminem.jpg')}}" style="width: 30rem;" alt="">
+    </div>
+    <div class="Enunciado1BioEminem" style="width: 30rem;">
+        <h4>Eminem, nacido como Marshall Bruce Mathers III el 17 de octubre de 1972 en St. Joseph, Missouri, es un rapero, compositor y productor estadounidense considerado uno de los artistas más influyentes de la historia del rap.</h4>
+        <br>
+        <h4>Criado en Detroit, enfrentó una infancia difícil marcada por la pobreza y el abuso. Su carrera despegó en 1996 con el lanzamiento de Infinite, pero fue con The Slim Shady LP (1999) cuando alcanzó la fama, ganando un Grammy.</h4>
+    </div>
+
+    <!-- PARTE 2 BIOGRAFÍA DE EMINEM -->
+    <div class="Imagen2BioEminem">
+        <img src="{{url_for('static',filename='Imagenes/Eminem/IniciosEminem2.png')}}" style="width: 25rem;" alt="">
+    </div>
+    <div class="Enunciado2BioEminem" style="width: 30rem;">
+        <h4>Eminem alcanzó su máximo éxito con The Marshall Mathers LP (2000), que se convirtió en uno de los álbumes más vendidos de todos los tiempos. Su estilo provocador y letras controvertidas lo hicieron una figura polarizadora, pero también una voz influyente en la cultura del rap.</h4>
+    </div>
+
+    <!-- PARTE 3 BIOGRAFÍA DE EMINEM -->
+    <div class="Imagen3BioEminem">
+        <img src="{{url_for('static',filename='Imagenes/Eminem/EminemViejito.jfif')}}" style="width: 25rem;" alt="">
+    </div>
+    <div class="Enunciado3BioEminem" style="width: 30rem;">
+        <h4>A lo largo de su carrera, Eminem ha ganado múltiples premios, incluidos 15 premios Grammy, y ha vendido más de 220 millones de discos a nivel mundial, consolidándose como una de las figuras más importantes de la música contemporánea.</h4>
+    </div>
+</div>
+
+<div class="TextoMejoresMomentos">
+    <h2>Mejores momentos de Eminem</h2>
+</div>
+
+<!-- MEJORES MOMENTOS DE EMINEM -->
+<div class="MejoresMomentosEminem">
+    <!-- 1. -->
+    <div class="CardEminem" style="width: 18rem;">
+        <img src="{{url_for('static',filename='Imagenes/Eminem/SlimShady.jpg')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">El lanzamiento de The Slim Shady LP (1999)</h5>
+            <p>Este álbum debut con un sello mayor fue el que catapultó a Eminem a la fama, con su alter ego "Slim Shady" y temas como "My Name Is". Ganó un Grammy y le dio visibilidad en la industria.</p>
+        </div>
+    </div>
+
+    <!-- 2. -->
+    <div class="CardEminem" style="width: 18rem;">
+        <img src="{{url_for('static',filename='Imagenes/Eminem/MarshallMathers.jpg')}}" class="card-img-top" alt="">
+        <div class="card-body">
+            <h5 class="card-title">Éxito de The Marshall Mathers LP (2000)</h5>
+            <p>Considerado uno de los mejores discos de rap, este álbum consolidó a Eminem como una estrella global. Con hits como "Stan" y "The Real Slim Shady", alcanzó un éxito comercial y crítico masivo.
+
+            </p>
+        </div>
+    </div>
+
+    <!-- 3. -->
+    <div class="CardEminem" style="width: 18rem;">
+        <img src="{{url_for('static',filename='Imagenes/Eminem/Recovery.jfif')}}" class="card-img-top" alt="">
+        <div class="card-body">
+            <h5 class="card-title">Regreso con Recovery (2010)</h5>
+            <p>Después de enfrentar problemas personales, Eminem regresó con un álbum más maduro e introspectivo. Sencillos como "Not Afraid" y "Love the Way You Lie" lo establecieron nuevamente como una de las principales figuras del rap.</p>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="ImagenMicrofonoEminem">
+    <img src="{{url_for('static',filename='Imagenes/Eminem/MicrofonoEminem.png')}}" style="height: 18rem;" alt="">
+</div>
+
+
+<div class="BotonEmanem">
+    <button><a href="{{url_for('index')}}">Vuelva de nuevo</a></button>
+</div>

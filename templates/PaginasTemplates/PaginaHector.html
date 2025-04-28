@@ -1,0 +1,113 @@
+<div class="HectorLavoe">
+  <div class="TituloHector">
+    <h1>Bienvenido a la página de Hector</h1>
+  </div>
+
+  <div class="ParrafoHector">
+    <h2>¡Elija uno de los exitos de Héctor Lavoe Mientras lee!</h2>
+  </div>
+
+  <!-- Sus exitos -->
+
+  <!-- Periodico de Ayer -->
+  <div class="ElementosHector">
+    <div class="CardHector" style="width: 22rem;">
+      <div class="card-body">
+        <h5 class="card-title">Periodico de ayer</h5>
+        <audio controls src="{{url_for('static',filename='Audio/PeriodicoAyer.mp3')}}"></audio>
+      </div>
+    </div>
+
+    <!-- El Cantante -->
+    <div class="CardHector" style="width: 22rem;">
+      <div class="card-body">
+        <h5 class="card-title">El Cantante</h5>
+        <audio controls src="{{url_for('static',filename='Audio/ElCantante.mp3')}}"></audio>
+      </div>
+    </div>
+
+    <!-- El dia de mi suerte -->
+    <div class="CardHector" style="width: 22rem;">
+      <div class="card-body">
+        <h5 class="card-title">El día de mi suerte</h5>
+        <audio controls src="{{url_for('static',filename='Audio/DiadeMiSuerte.mp3')}}"></audio>
+      </div>
+    </div>
+  </div>
+
+  <!-- //////////////////////////////////// INFOGRAFÍA /////////////////////////////////////// -->
+  <!-- Imagen para acompañar la pagina -->
+  <div class="img1Hector">
+    <img src="{{url_for('static',filename='Imagenes/HectorInfo.jpeg')}}" alt="" width="500px" height="400px">
+  </div>
+  <div class="CardinfoHector1" style="width: 25rem;">
+    <div class="card-body">
+      <h3>Héctor Lavoe (1946-1993) fue un cantante puertorriqueño, apodado "El Cantante de los Cantantes", y una de las
+        figuras más icónicas de la salsa. Más abajo descrubre el por que.</h3>
+    </div>
+  </div>
+
+  <div class="img2Hector">
+    <img src="{{url_for('static',filename='Imagenes/HectorYWillie.jpeg')}}" alt="" width="400px" height="300px">
+  </div>
+  <div class="CardinfoHector2" style="width: 25rem;">
+    <h3>Su poderosa voz y carisma lo llevaron al estrellato junto a Willie Colón y como solista, creando clásicos como
+      "Mi Gente" y "El Cantante".</h3>
+  </div>
+
+  <div class="img3Hector">
+    <img src="{{url_for('static',filename='Imagenes/ELCANTANTE.jpeg')}}" alt="" width="380px" height="350px">
+  </div>
+  <div class="CardinfoHector3" style="width: 25rem;">
+    <h3>A pesar de su éxito, su vida estuvo marcada por tragedias personales y adicciones, dejando un legado imborrable
+      en la música latina.</h3>
+  </div>
+
+
+  <!-- //////////////////////////////////// DATOS CURIOSOS /////////////////////////////////////// -->
+
+  <h1>Algunos datos curiosos acerca de Héctor Lavoe</h1>
+
+  <div class="ElementosHector2">
+    <!-- 1. -->
+    <div class="CardHector" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Un concierto para Pablo Escobar</h5>
+        <p>Lavoe fue invitado a cantar en una fiesta privada organizada por el narcotraficante Pablo Escobar, quien era
+          fanático de su música. Este episodio es una de las anécdotas más curiosas de su vida.</p>
+      </div>
+    </div>
+
+    <!-- 2. -->
+    <div class="CardHector" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Su apodo "El Cantante de los Cantantes"</h5>
+        <p>Rubén Blades escribió la icónica canción "El Cantante" pensando en él, consolidando su lugar como leyenda de
+          la salsa.</p>
+      </div>
+    </div>
+
+    <!-- 3. -->
+    <div class="CardHector" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Legado en el cine</h5>
+        <p>En 2006, su vida fue llevada a la pantalla grande con la película "El Cantante," protagonizada por Marc
+          Anthony y Jennifer López, lo que permitió que una nueva generación conociera su historia.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- //////////////////////////////////// FINAL /////////////////////////////////////// -->
+  <div class="Sombrero">
+    <img src="{{url_for('static',filename='Imagenes/SombreroFedora.png')}}" alt="">
+  </div>
+  <!-- Boton para regresar al menú principal -->
+  <div class="botonHector">
+    <button><a href="{{url_for('index')}}">Vuelva de nuevo</a></button>
+  </div>
+
+
+</div>

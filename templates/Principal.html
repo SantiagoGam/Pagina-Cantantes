@@ -1,0 +1,34 @@
+<div class="contenedor_Inicio">
+    <h1>¡Conozca a su favorito!</h1>
+    <div class="cartas">
+      <a href="{{url_for('PagHector')}}">
+        <div class="cardHector" style="width: 18rem;">
+          <img src="{{url_for('static',filename='Imagenes/Hector.jpg')}}"  height="400px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hector Lavoe</h5>
+          </div>
+      </div>
+      </a>
+        
+      <a href="{{url_for('PagEminem')}}">
+        <div class="cardEminem" style="width: 18rem;">
+          <img src="{{url_for('static',filename='Imagenes/Eminem/Eminem.jpg')}}" height="400px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Eminem</h5>
+          </div>
+      </div>
+      </a>
+        
+      <a href="{{url_for('PagDon')}}">
+        <div class="cardOmar" style="width: 18rem; ">
+          <img src="{{url_for('static',filename='Imagenes/DonOmar.jpg')}}" height="400px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Don Omar</h5>
+          </div>
+      </div>
+      </a>
+        
+    
+    </div>
+    <h1>¡Elige alguna de las tres imagenes!</h1>
+</div>

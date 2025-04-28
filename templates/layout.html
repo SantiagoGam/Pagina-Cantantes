@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Content Bootstrap Css -->
+    <link rel="stylesheet" href="{{url_for('static',filename='Bootstrap/css/bootstrap.css')}}">
+
+    <!-- Content Style Css -->
+    <link rel="stylesheet" href="{{url_for('static',filename='Style/Style.css')}}">
+
+    <title> {% block title %} {% endblock %} </title>
+
+</head>
+<body>
+    
+    {% block content %} 
+    
+    {% endblock %}
+
+    <!-- Funciones -->
+    <script>
+        function ReproducirAudioGodzilla(){
+            const AudioGodzilla = document.getElementById('EminemGodzillaCancion');
+            if(AudioGodzilla.paused){
+                AudioGodzilla.play();
+            }
+            else{
+                AudioGodzilla.pause();
+            }
+        }
+
+        
+        function ReproducirAudioHoudini(){
+            const AudioHoudini = document.getElementById('EminemHoudiniCancion');
+            if(AudioHoudini.paused){
+                AudioHoudini.play();
+            }
+            else{
+                AudioHoudini.pause();
+            }
+        }
+
+
+        function ReproducirAudioLose(){
+            const AudioLose = document.getElementById('EminemLoseCancion');
+            if(AudioLose.paused){
+                AudioLose.play();
+            }
+            else{
+                AudioLose.pause();
+            }
+        }
+
+
+        function ReproducirAudioDile(){
+            const AudioLose = document.getElementById('CancionDileDonOmar');
+            if(AudioLose.paused){
+                AudioLose.play();
+            }
+            else{
+                AudioLose.pause();
+            }
+        }
+
+        
+    </script>
+
+
+
+<script src="{{url_for('static',filename='Bootstrap/js/bootstrap.bundle.js')}}"></script>
+</body>
+</html>
